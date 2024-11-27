@@ -19,7 +19,7 @@ const Header = () => {
       <div className="container mx-auto p-4 bg-white my-5">
         <nav className="flex px-20">
           <div className="w-full flex gap-5 items-center">
-            <span className="w-10 h-10 bg-indigo-500 rounded-full grid place-content-center">
+            <span className="w-10 h-10 bg-indigo-500 rounded-full grid place-content-center font-mulish">
               <img src={logo} alt="logo.svg" />
             </span>
             <p className="text-xl font-bold">Saviour Care</p>
