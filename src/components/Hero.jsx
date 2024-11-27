@@ -13,12 +13,16 @@ const Hero = () => {
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa.
           </p>
-          <button className="ml-20 bg-[#458FF6] rounded-full text-[19px] font-[700] leading-[60px] px-7 text-[#ffffff] font-mulish">
+          <button className="ml-20 bg-[#458FF6] rounded-full text-[19px] font-[700] leading-[60px] px-7 text-[#ffffff] font-mulish duration-500 hover:bg-slate-800">
             Consult today
           </button>
         </div>
         <div>
-          <img className="w-full object-cover" src={hero} alt="Hero Image" />
+          <img
+            className="w-full object-cover ml-20"
+            src={hero}
+            alt="Hero Image"
+          />
         </div>
       </div>
     </div>
